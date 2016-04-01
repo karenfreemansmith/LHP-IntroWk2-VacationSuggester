@@ -31,13 +31,96 @@
       </div>
     </div>
     <!-- End Navbar -->
-  <div class="container">
-    <h1>Customize your Vacation Plans</h1>
-    <p>Take our quick survey to get a recommendation for the best activities to pursue during each day of our West Coast trip.</p>
-
-  </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
+    <div class="container">
+      <h1>Customize your Vacation Plans</h1>
+      <p>Take our quick survey to get a recommendation for the best activities to pursue during each day of our West Coast trip.</p>
+      <form id="vacationPlanner">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label>Will you be traveling with chidren?</label><br>
+              <input type="radio" name="ages" value="kids">Yes
+              <br><input type="radio" name="ages" value="adults">No
+            </div>
+            <div class="form-group">
+              <label>Where do you prefer to spend most of your time?</label><br>
+              <input type="radio" name="activityType" value="inside">Indoors
+              <br><input type="radio" name="activityType" value="outside">Outdoors
+            </div>
+            <div class="form-group">
+              <label>What time of day do you enjoy most?</label><br>
+              <input type="radio" name="activityTime" value="early">Early Mornings
+              <br><input type="radio" name="activityTime" value="morning">Mid-Morning
+              <br><input type="radio" name="activityTime" value="afternoon">Afternoon
+              <br><input type="radio" name="activityTime" value="evening">Early Evening
+              <br><input type="radio" name="activityTime" value="latenight">Late Nights
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label>Which culture interests you most?</label><br>
+              <input type="radio" name="culture" value="asian">Asian
+              <br><input type="radio" name="culture" value="hispanic">Hispanic
+              <br><input type="radio" name="culture" value="african">African American
+              <br><input type="radio" name="culture" value="american">American West
+            </div>
+            <div class="form-group">
+              <label>What kinds of restaurants do you prefer?</label><br>
+              <input type="radio" name="food" value="burgers">Burgers and Fries
+              <br><input type="radio" name="food" value="steak">Steak and Potaoes
+              <br><input type="radio" name="food" value="steak">Seafood
+              <br><input type="radio" name="food" value="steak">Chinese/Asian
+              <br><input type="radio" name="food" value="steak">Mexican
+              <br><input type="radio" name="food" value="steak">Vegetarian
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6"></div>
+          <div class="col-sm-6">
+            <button type="submit" class="btn btn-block">Plan My Trip</button>
+          </div>
+        </div>
+      </form>
+      <div id="recommendations">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Day 1: Seattle</h3>
+            <p id="day1am"></p>
+            <p id="day1pm"></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Day 2: Portland</h3>
+            <p id="day2am"></p>
+            <p id="day2pm"></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Day 3: Pacific Coast</h3>
+            <p id="day3am"></p>
+            <p id="day3pm"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Day 4: San Francisco</h3>
+            <p id="day4am"></p>
+            <p id="day4pm"></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Day 5: Los Angeles</h3>
+            <p id="day5am"></p>
+            <p id="day5pm"></p>
+          </div>
+          <div class="col-md-4">
+            <h3>Day 6: San Diego</h3>
+            <p id="day6am"></p>
+            <p id="day6pm"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>

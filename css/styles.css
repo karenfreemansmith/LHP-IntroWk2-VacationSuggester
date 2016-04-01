@@ -2,9 +2,18 @@ body {
   padding-top: 50px;
 }
 
+#recommendations {
+  display:none;
+}
+
 .item h1 {
   color: purple;
   text-align: center;
+}
+
+.btn {
+  background-color: purple;
+  color: #f5f5f5;
 }
 
 .navbar-inverse {
