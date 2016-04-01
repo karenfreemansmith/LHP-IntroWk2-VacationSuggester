@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- Navvar -->
-    <div class="navbar navbar-inverse">
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-bar"></span>
@@ -34,33 +34,47 @@
 
     <div id="myCarousel" class="carousel slide jumbotron">
       <div class="container">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+        </ol>
         <div class="carousel-inner">
           <div class="item active">
-            <h1 class="pull-right">Seattle</h1>
-            <img src="img/seattle.jpg" class="img-responsive">
+            <img src="img/seattle.jpg" class="img-responsive pull-right">
+            <h1>Seattle</h1>
           </div>
           <div class="item">
-            <h1 class="pull-right">Portland</h1>
-            <img src="img/portland.jpg" class="img-responsive">
+            <img src="img/portland.jpg" class="img-responsive pull-right">
+            <h1>Portland</h1>
           </div>
           <div class="item">
-            <h1 class="pull-right">Oregon Coast</h1>
-            <img src="img/florence.jpg" class="img-responsive">
+            <img src="img/florence.jpg" class="img-responsive pull-right">
+            <h1>Oregon Coast</h1>
           </div>
           <div class="item">
-            <h1 class="pull-right">San Francisco</h1>
-            <img src="img/sanfrancisco.jpg" class="img-responsive">
+            <img src="img/sanfrancisco.jpg" class="img-responsive pull-right">
+            <h1>San Francisco</h1>
           </div>
           <div class="item">
-            <h1 class="pull-right">Los Angeles</h1>
-            <img src="img/losangeles.jpg" class="img-responsive">
+            <img src="img/losangeles.jpg" class="img-responsive pull-right">
+            <h1>Los Angeles</h1>
           </div>
           <div class="item">
-            <h1 class="pull-right">San Diego</h1>
-            <img src="img/sandeigo.jpg" class="img-responsive">
+            <img src="img/sandiego.jpg" class="img-responsive pull-right">
+            <h1>San Diego</h1>
           </div>
         </div>
       </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
     </div>
     <div class="container">
       <h2>Other Page Text</h2>

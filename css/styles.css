@@ -1,0 +1,24 @@
+body {
+  padding-top: 50px;
+}
+
+.item h1 {
+  color: purple;
+  text-align: center;
+}
+
+.navbar-inverse {
+  background-color: purple;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #222;
+}
+
+.carousel-indicators li {
+  border-color: #222;
+}
