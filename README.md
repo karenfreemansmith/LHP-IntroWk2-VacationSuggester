@@ -1,7 +1,7 @@
 # :city_sunset: [West Coast Vacation](http://karenfreemansmith.github.io/vacation) :sailboat:
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 2: April 1, 2016__
+__Version 2.1: August 12, 2016__
 
 ## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
 
@@ -21,11 +21,10 @@ vacation based on their answers. (*Currently, only the indoors/outdoors question
 For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__
 
 ### Known Issues
-* Images are too small, need to find some bigger ones, especially on carousel
 * Needs more photos of activities, and descriptions on inner pages
-* Suggester page not linked to rest of site
 * Need to add more options based on additional survey questions
-* Need more info on each option, possibly modal form on mouse overs
+* Need more info on each option, possibly modal form on mouse overs?
+
 
 ### Technologies Used
 ###### HTML, CSS, Bootstrap, JavaScript, jQuery
