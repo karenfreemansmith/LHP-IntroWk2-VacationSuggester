@@ -14,22 +14,22 @@ vacation based on their answers. (*Currently, only the indoors/outdoors question
 
 ![project screenshot](/img/screenshot2.jpg)
 
-### Setup/Installation
-*None required. Clone or download and extract to use*
+## Technologies Used
+HTML, CSS
 
-### Support & Contact
-For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__
+## Setup/Installation
+* [View on Github Pages](https://karenfreemansmith.github.io/EpicIntroWk1-PetWebsite)
+* _OR_
+* Clone diectory 
+* Open index.html in your favorite browser
 
-### Known Issues
-* Needs more photos of activities, and descriptions on inner pages
-* Need to add more options based on additional survey questions
-* Need more info on each option, possibly modal form on mouse overs?
+## Support & Contact
+For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
 
+## Known Issues
+* None
 
-### Technologies Used
-###### HTML, CSS, Bootstrap, JavaScript, jQuery
-
-### Legal
+## Legal
 *Licensed under the GNU General Public License v3.0*
 
-Copyright (c) 2016 **_Karen Freeman-Smith_**
+Copyright (c) 2016 Copyright _[Karen Freeman-Smith](https://karenfreemansmith.github.io)_ All Rights Reserved.
