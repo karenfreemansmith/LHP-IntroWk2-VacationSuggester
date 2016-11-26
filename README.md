@@ -1,33 +1,30 @@
-# :city_sunset: [West Coast Vacation](http://karenfreemansmith.github.io/vacation) :sailboat:
-![project screenshot](/img/screenshot.jpg)
+# Amusement Park Rides
+Version 0.0.2: August 12, 2016
+by [Karen Freeman-Smith](https://karenfreemansmith.github.io)
 
-__Version 2.1: August 12, 2016__
+### Technologies Used
+HTML, CSS, Bootstrap, JavaScript, jQuery
 
-## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
+![screenshot of project running](screenshot.png)
 
-### Description
-__*Vacation Website*__
+## Description
+*[Learn How To Program](http://learnhowtoprogram.com) Intro to Programming Week 2 Individual Project: Adds vacation suggester to a basic website for a vacation to explore Bootstrap features.*
 
-A basic website for a vacation to explore Bootstrap features. Second version adds a "[suggestion](http://karenfreemansmith.github.io/vacation/customvisit.html)"
+* Second version adds a "[suggestion](http://karenfreemansmith.github.io/vacation/customvisit.html)"
 feature that allows visitor to fill out a survey and get suggestions for what to do on
-vacation based on their answers. (*Currently, only the indoors/outdoors question is considered.*)
-
-![project screenshot](/img/screenshot2.jpg)
-
-## Technologies Used
-HTML, CSS
+vacation based on their answers.
 
 ## Setup/Installation
-* [View on Github Pages](https://karenfreemansmith.github.io/EpicIntroWk1-PetWebsite)
+* [View on Github Pages](https://karenfreemansmith.github.io/LHP-IntroWk2-VacationSuggester)
 * _OR_
-* Clone diectory 
+* Clone directory
 * Open index.html in your favorite browser
 
 ## Support & Contact
 For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
 
 ## Known Issues
-* None
+* Currently, only the indoors/outdoors question is considered.
 
 ## Legal
 *Licensed under the GNU General Public License v3.0*
