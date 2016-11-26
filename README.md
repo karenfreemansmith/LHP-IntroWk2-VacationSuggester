@@ -10,7 +10,7 @@ HTML, CSS, Bootstrap, JavaScript, jQuery
 ## Description
 *[Learn How To Program](http://learnhowtoprogram.com) Intro to Programming Week 2 Individual Project: Adds vacation suggester to a basic website for a vacation to explore Bootstrap features.*
 
-* Second version adds a "[suggestion](http://karenfreemansmith.github.io/vacation/customvisit.html)"
+* Second version adds a "[suggestion](http://karenfreemansmith.github.io/LHP-IntroWk2-VacationSuggester/customvisit.html)"
 feature that allows visitor to fill out a survey and get suggestions for what to do on
 vacation based on their answers.
 
